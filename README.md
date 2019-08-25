@@ -1,5 +1,24 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## NOTE
+Okay, this shows the relationship between a parent --> grandchild. <br>
+We show that you can pass state to the parent, and back down to the grandchild. It is a very contrived, easy example.<br>
+But, it shows how you can compartmentalize state. We could compose state before (pre-hooks), fine, but in this instance, you can see that I just name the actions/context based on how we are using it. 
+
+### Some things to enhance the architecture
+1. you can site the context/types/reducer in the area where you need it, or are using. This way the cognitive load is small. Everything you have is there.
+2. If you don't want to do #1, you can have a state folder that exports into an index.js file.
+3. Or you can just do a context/reducer/action/type folder.. one for each.
+
+I can't say what is best because I don't know how your app is shaping up. 
+
+<b>I hope this is helpful. IF THIS IS NOT WHAT YOU NEEDED. Please tell me exactly what you need, in steps. Something tells me this is not exactly what you need.. but I am hoping it is :-)</b>
+
+
+
+
+## READ BELOW FOR REACT-APP starting this. Just clone it, and run npm start.
+
 ## Available Scripts
 
 In the project directory, you can run:
